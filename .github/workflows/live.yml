@@ -502,6 +502,3 @@ jobs:
         git commit -m "Update YTlive"
         git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
         git push -f -u origin YTlive
-    - name: Delete workflow runs
-      uses: Mattraks/delete-workflow-runs@v2.0.3
-
