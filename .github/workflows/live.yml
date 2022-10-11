@@ -11,6 +11,7 @@ jobs:
       run: |
         sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
         sudo chmod a+rx /usr/local/bin/youtube-dl
+        # 00無訊號   
     - name: Get 00.m3u8
       run: |
         touch ./00.m3u8
@@ -22,6 +23,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=wKjPli-AHdA)
         EOL
+        # 01節目表
     - name: Get 01.m3u8
       run: |
         touch ./01.m3u8
@@ -33,6 +35,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=GCqbjyMGrXs)
         EOL
+        # 04鏡新聞
     - name: Get 04.m3u8
       run: |
         touch ./04.m3u8
@@ -44,6 +47,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=5n0y6b0Q25o)
         EOL
+        # 05CNN
     - name: Get 05.m3u8
       run: |
         touch ./05.m3u8
@@ -53,6 +57,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=Ue9SnIpwNB4)
         EOL
+        # 09大愛
     - name: Get 09.m3u8
       run: |
         touch ./09.m3u8
@@ -62,6 +67,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=MIqUplvSRWA)
         EOL
+        # 13公視
     - name: Get 13.m3u8
       run: |
         touch ./13.m3u8
@@ -71,6 +77,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=4Uc00FPs27M)
         EOL
+        # 14公視台語台
     - name: Get 14.m3u8
       run: |
         touch ./14.m3u8
@@ -80,6 +87,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=6KlRR_DGhmI)
         EOL
+        # 34東森購物2台
     - name: Get 34.m3u8
       run: |
         touch ./34.m3u8
@@ -89,6 +97,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=_Vlzn9qAHD4)
         EOL
+        # 35momo購物2台
     - name: Get 35.m3u8
       run: |
         touch ./35.m3u8
@@ -98,6 +107,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=xbNWkUyxQGM)
         EOL
+        # 46東森購物3台
     - name: Get 46.m3u8
       run: |
         touch ./46.m3u8
@@ -107,6 +117,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=Z50JFuNgvB0)
         EOL
+        # 47東森購物1台
     - name: Get 47.m3u8
       run: |
         touch ./47.m3u8
@@ -116,6 +127,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=ViJ3XiN6Q3M)
         EOL
+        # 48momo購物1台
     - name: Get 48.m3u8
       run: |
         touch ./48.m3u8
@@ -125,6 +137,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=_pZQ1Lk0xMA)
         EOL
+        # 51東森新聞
     - name: Get 51.m3u8
       run: |
         touch ./51.m3u8
@@ -134,6 +147,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=SBtGwNMfuf0)
         EOL
+        # 52中天新聞台
     - name: Get 52.m3u8
       run: |
         touch ./52.m3u8
@@ -143,6 +157,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=_QbRXRnHMVY)
         EOL
+        # 53民視新聞台
     - name: Get 53.m3u8
       run: |
         touch ./53.m3u8
@@ -150,8 +165,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=P8DRJChuQQQ)
+        $(youtube-dl -g https://www.youtube.com/watch?v=ylYJSBUgaMA)
         EOL
+        # 54三立新聞台
     - name: Get 54.m3u8
       run: |
         touch ./54.m3u8
@@ -159,8 +175,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=EB4g7wecgTI)
+        $(youtube-dl -g https://www.youtube.com/watch?v=2X7Uxw435YI)
         EOL
+        # 55TVBS新聞台
     - name: Get 55.m3u8
       run: |
         touch ./55.m3u8
@@ -170,6 +187,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=N16COz20fNI)
         EOL
+        # 56TVBS
     - name: Get 56.m3u8
       run: |
         touch ./56.m3u8
@@ -181,6 +199,7 @@ jobs:
         #EXT-X-DISCONTINUITY-SEQUENCE:532
         $(youtube-dl -f best -g https://www.youtube.com/watch?v=j8OCB6X8DoQ)
         EOL
+        # 57東森財經新聞
     - name: Get 57.m3u8
       run: |
         touch ./57.m3u8
@@ -190,6 +209,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(youtube-dl -g https://www.youtube.com/watch?v=ABn_ccXn_jc)
         EOL
+        # 59viva購物1台
     - name: Get 59.m3u8
       run: |
         touch ./59.m3u8
@@ -199,6 +219,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
         $(youtube-dl -g https://www.youtube.com/watch?v=yuhgIlXwPh8)
         EOL
+        # 60東森購物5台
     - name: Get 60.m3u8
       run: |
         touch ./60.m3u8
@@ -208,6 +229,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=u0NYyH3ZesE)
         EOL
+        # 86信吉電視台
     - name: Get 86.m3u8
       run: |
         touch ./86.m3u8
@@ -215,8 +237,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(youtube-dl -g https://www.youtube.com/watch?v=wTlxNbViRWU)
+        $(youtube-dl -g https://www.youtube.com/watch?v=1jvZA79pFN0)
         EOL
+        # 89三立iNEWS
     - name: Get 89.m3u8
       run: |
         touch ./89.m3u8
@@ -226,6 +249,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=CKjSm5ZeehE)
         EOL
+        # 92運通財經台
     - name: Get 92.m3u8
       run: |
         touch ./92.m3u8
@@ -233,8 +257,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=4mQhhzfKwUA)
+        $(youtube-dl -g https://www.youtube.com/watch?v=CLWp-W2n85k)
         EOL
+        # 93全球財經台
     - name: Get 93.m3u8
       run: |
         touch ./93.m3u8
@@ -242,8 +267,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=dQG0j99LUS4)
+        $(youtube-dl -g https://www.youtube.com/watch?v=70q6P6V1DO4)
         EOL
+        # 94誠心電視台
     - name: Get 94.m3u8
       run: |
         touch ./94.m3u8
@@ -253,6 +279,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=R4Kx3Apshno)
         EOL
+        # 98海豚綜合台
     - name: Get 98.m3u8
       run: |
         touch ./98.m3u8
@@ -260,8 +287,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=ffVjADrsmt8)
+        $(youtube-dl -g https://www.youtube.com/watch?v=Ak02hxNODiQ)
         EOL
+        # 102華藏電視台
     - name: Get 102.m3u8
       run: |
         touch ./102.m3u8
@@ -269,8 +297,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=4EwvSc9L_YU)
+        $(youtube-dl -g https://www.youtube.com/watch?v=YzpByfRMKqM)
         EOL
+        # 103十方法界電視台
     - name: Get 103.m3u8
       run: |
         touch ./103.m3u8
@@ -278,8 +307,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=Plz_MI-vGJg)
+        $(youtube-dl -g https://www.youtube.com/watch?v=Hod5N_jAAHU)
         EOL
+        # 104世界電視台
     - name: Get 104.m3u8
       run: |
         touch ./104.m3u8
@@ -287,8 +317,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=kr77WtxLDBQ)
+        $(youtube-dl -g https://www.youtube.com/watch?v=IC1WC02BGv8)
         EOL
+        # 105佛衛慈悲台
     - name: Get 105.m3u8
       run: |
         touch ./105.m3u8
@@ -296,8 +327,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=H6MnEvujIW8)
+        $(youtube-dl -g https://www.youtube.com/watch?v=rRHSZ_Tzczw)
         EOL
+        # 106信大電視台
     - name: Get 106.m3u8
       run: |
         touch ./106.m3u8
@@ -307,6 +339,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=xrLOKtrqHcM)
         EOL
+        # 108新唐人亞太台
     - name: Get 108.m3u8
       run: |
         touch ./108.m3u8
@@ -316,6 +349,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=WIhgU_mc05A)
         EOL
+        # 109正德電視台
     - name: Get 109.m3u8
       run: |
         touch ./109.m3u8
@@ -325,6 +359,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=CHDb5D0DCkw)
         EOL
+        # 110天良綜合台
     - name: Get 110.m3u8
       run: |
         touch ./110.m3u8
@@ -332,8 +367,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=X4E3Vy_gKjY)
+        $(youtube-dl -g https://www.youtube.com/watch?v=ULacGt5cyYw)
         EOL
+        # 115新天地民俗台
     - name: Get 115.m3u8
       run: |
         touch ./115.m3u8
@@ -343,6 +379,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=u-8-AGemeqc)
         EOL
+        # 116三聖電視台
     - name: Get 116.m3u8
       run: |
         touch ./116.m3u8
@@ -350,8 +387,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=FjnHFKVa_ao)
+        $(youtube-dl -g https://www.youtube.com/watch?v=FqfEZQpuIf4)
         EOL
+        # 118天美麗電視台
     - name: Get 118.m3u8
       run: |
         touch ./118.m3u8
@@ -359,8 +397,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=9FJ129eo0Xs)
+        $(youtube-dl -g https://www.youtube.com/watch?v=aXEldl8NDSI)
         EOL
+        # 119桐瑛電視台
     - name: Get 119.m3u8
       run: |
         touch ./119.m3u8
@@ -368,8 +407,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(youtube-dl -g https://www.youtube.com/watch?v=FFt4ew9mIbQ)
+        $(youtube-dl -g https://www.youtube.com/watch?v=DwLCCu0D3PM)
         EOL
+        # 120雙子衛視
     - name: Get 120.m3u8
       run: |
         touch ./120.m3u8
@@ -379,6 +419,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=uticVt0a_hc)
         EOL
+        # 121viva購物2台
     - name: Get 121.m3u8
       run: |
         touch ./121.m3u8
@@ -388,6 +429,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=LEOat38Iuao)
         EOL
+        # 123國會頻道1
     - name: Get 123.m3u8
       run: |
         touch ./123.m3u8
@@ -397,6 +439,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=4HysYHJ6GkY)
         EOL
+        # 124國會頻道2
     - name: Get 124.m3u8
       run: |
         touch ./124.m3u8
@@ -406,6 +449,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=RAP4h3q6_Sg)
         EOL
+        # 125幸福空間居家台
     - name: Get 125.m3u8
       run: |
         touch ./125.m3u8
@@ -415,6 +459,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=BrixzUcC_hY)
         EOL
+        # 129東森財經股市
     - name: Get 129.m3u8
       run: |
         touch ./129.m3u8
@@ -424,6 +469,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=LbS-xQ67fos)
         EOL
+        # 154中視新聞台
     - name: Get 154.m3u8
       run: |
         touch ./154.m3u8
@@ -433,6 +479,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=TCnaIE_SAtM)
         EOL
+        # 155台視新聞台
     - name: Get 155.m3u8
       run: |
         touch ./155.m3u8
@@ -442,6 +489,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=xL0ch83RAK8)
         EOL
+        # 159華視新聞資訊
     - name: Get 159.m3u8
       run: |
         touch ./159.m3u8
@@ -451,6 +499,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=wM0g8EoUZ_E)
         EOL
+        # 222寰宇新聞台
     - name: Get 222.m3u8
       run: |
         touch ./222.m3u8
@@ -460,6 +509,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=qFhAXrviP5g)
         EOL
+        # 297大愛二台
     - name: Get 297.m3u8
       run: |
         touch ./297.m3u8
@@ -469,6 +519,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=DTNkEm6jaqQ)
         EOL
+        # 950華語流行暢銷
     - name: Get 950.m3u8
       run: |
         touch ./950.m3u8
@@ -478,6 +529,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=wrYF0HX7Kzc)
         EOL
+        # 951華語KKBOX新歌
     - name: Get 951.m3u8
       run: |
         touch ./951.m3u8
