@@ -519,8 +519,8 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
         $(youtube-dl -g https://www.youtube.com/watch?v=DTNkEm6jaqQ)
         EOL
-                # 801全球跨年煙火不斷電直播
-   - name: Get 801.m3u8
+        # 801全球跨年煙火不斷電直播
+    - name: Get 801.m3u8
       run: |
         touch ./801.m3u8
         sudo cat >./801.m3u8 <<EOL
@@ -540,7 +540,7 @@ jobs:
         $(youtube-dl -g https://www.youtube.com/watch?v=xJFIWpLNmm4)
         EOL
         # 803碧山巖 - 4K即時影像
-   - name: Get 803.m3u8
+    - name: Get 803.m3u8
       run: |
         touch ./803.m3u8
         sudo cat >./803.m3u8 <<EOL
@@ -560,7 +560,7 @@ jobs:
         $(youtube-dl -g https://www.youtube.com/watch?v=z_fY1pj1VBw)
         EOL
         # 805臺北最High新年城
-   - name: Get 805.m3u8
+    - name: Get 805.m3u8
       run: |
         touch ./805.m3u8
         sudo cat >./805.m3u8 <<EOL
@@ -580,7 +580,7 @@ jobs:
         $(youtube-dl -g https://www.youtube.com/watch?v=uPfCZN1nNmc)
         EOL
         # 8072023新竹縣公益慈善跨年晚會
-   - name: Get 807.m3u8
+    - name: Get 807.m3u8
       run: |
         touch ./807.m3u8
         sudo cat >./807.m3u8 <<EOL
@@ -600,7 +600,7 @@ jobs:
         $(youtube-dl -g https://www.youtube.com/watch?v=94aG7dR6hE8)
         EOL
         # 8092023麗寶跨年演唱會
-   - name: Get 809.m3u8
+    - name: Get 809.m3u8
       run: |
         touch ./809.m3u8
         sudo cat >./809.m3u8 <<EOL
@@ -620,7 +620,7 @@ jobs:
         $(youtube-dl -g https://www.youtube.com/watch?v=zF88ImxrFUA)
         EOL
         # 8112023西螺跨年晚會
-   - name: Get 811.m3u8
+    - name: Get 811.m3u8
       run: |
         touch ./811.m3u8
         sudo cat >./811.m3u8 <<EOL
@@ -640,7 +640,7 @@ jobs:
         $(youtube-dl -g https://www.youtube.com/watch?v=TE8FccfS2I0)
         EOL
         # 813台南好YOUNG跨年晚會
-   - name: Get 813.m3u8
+    - name: Get 813.m3u8
       run: |
         touch ./813.m3u8
         sudo cat >./813.m3u8 <<EOL
@@ -660,7 +660,7 @@ jobs:
         $(youtube-dl -g https://www.youtube.com/watch?v=1G43tkP4LHE)
         EOL
         # 8152023屏東跨年歌舞昇屏 High歌之夜
-   - name: Get 815.m3u8
+    - name: Get 815.m3u8
       run: |
         touch ./815.m3u8
         sudo cat >./815.m3u8 <<EOL
