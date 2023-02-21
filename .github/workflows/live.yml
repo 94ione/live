@@ -30,7 +30,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@dw661212/nosignal)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=wKjPli-AHdA)
         EOL
         # 01節目表
     - name: Get 01.m3u8
@@ -40,7 +40,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@dw661212/Channel)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=GCqbjyMGrXs)
         EOL
         # 04鏡新聞
     - name: Get 04.m3u8
@@ -70,7 +70,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@DaAiVideo/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=MIqUplvSRWA)
         EOL
         # 13公視
     - name: Get 13.m3u8
@@ -90,7 +90,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@ptstaigitai/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=6KlRR_DGhmI)
         EOL
         # 34東森購物2台
     - name: Get 34.m3u8
@@ -100,7 +100,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@HotsaleTV/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=_Vlzn9qAHD4)
         EOL
         # 35momo購物2台
     - name: Get 35.m3u8
@@ -120,7 +120,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@HotsaleTV/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Z50JFuNgvB0)
         EOL
         # 47東森購物1台
     - name: Get 47.m3u8
@@ -130,7 +130,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@HotsaleTV/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=ViJ3XiN6Q3M)
         EOL
         # 48momo購物1台
     - name: Get 48.m3u8
@@ -232,7 +232,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/embed/Z50JFuNgvB)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=u0NYyH3ZesE)
         EOL
         # 86信吉電視台 XXX
     - name: Get 86.m3u8
@@ -432,7 +432,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@ViVaTVtw/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=LEOat38Iuao)
         EOL
         # 123國會頻道1
     - name: Get 123.m3u8
@@ -442,7 +442,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@user-sr2ck1hq9z/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=4HysYHJ6GkY)
         EOL
         # 124國會頻道2
     - name: Get 124.m3u8
@@ -452,7 +452,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@user-sr2ck1hq9z/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=RAP4h3q6_Sg)
         EOL
         # 125幸福空間居家台
     - name: Get 125.m3u8
@@ -472,7 +472,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@57ETFN/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=LbS-xQ67fos)
         EOL
         # 154中視新聞台
     - name: Get 154.m3u8
