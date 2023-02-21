@@ -29,7 +29,7 @@ jobs:
         sudo cat >./00.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@dw661212/nosignal)
         EOL
         # 01節目表
@@ -39,7 +39,7 @@ jobs:
         sudo cat >./01.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@dw661212/Channel)
         EOL
         # 04鏡新聞
@@ -49,7 +49,7 @@ jobs:
         sudo cat >./04.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@mnews-tw/live)
         EOL
         # 05CNN
@@ -59,7 +59,7 @@ jobs:
         sudo cat >./05.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@cnnturk/live)
         EOL
         # 09大愛
@@ -69,7 +69,7 @@ jobs:
         sudo cat >./09.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@DaAiVideo/live)
         EOL
         # 13公視
@@ -79,7 +79,7 @@ jobs:
         sudo cat >./13.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@ptslivestream/live)
         EOL
         # 14公視台語台
@@ -89,7 +89,7 @@ jobs:
         sudo cat >./14.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@ptstaigitai/live)
         EOL
         # 34東森購物2台
@@ -99,7 +99,7 @@ jobs:
         sudo cat >./34.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@HotsaleTV/live)
         EOL
         # 35momo購物2台
@@ -109,7 +109,7 @@ jobs:
         sudo cat >./35.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@momoch3571/live)
         EOL
         # 46東森購物3台
@@ -119,7 +119,7 @@ jobs:
         sudo cat >./46.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@HotsaleTV/live)
         EOL
         # 47東森購物1台
@@ -129,7 +129,7 @@ jobs:
         sudo cat >./47.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@HotsaleTV/live)
         EOL
         # 48momo購物1台
@@ -139,7 +139,7 @@ jobs:
         sudo cat >./48.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@momoch4812/live)
         EOL
         # 51東森新聞
@@ -149,7 +149,7 @@ jobs:
         sudo cat >./51.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@newsebc/live)
         EOL
         # 52中天新聞台
@@ -159,7 +159,7 @@ jobs:
         sudo cat >./52.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@CtiTv/live)
         EOL
         # 53民視新聞台
@@ -169,7 +169,7 @@ jobs:
         sudo cat >./53.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@FTV_News/live)
         EOL
         # 54三立新聞台
@@ -179,7 +179,7 @@ jobs:
         sudo cat >./54.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@setnews/live)
         EOL
         # 55TVBS新聞台
@@ -189,7 +189,7 @@ jobs:
         sudo cat >./55.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@TVBSNEWS01/live)
         EOL
         # 56TVBS XX
@@ -231,7 +231,7 @@ jobs:
         sudo cat >./60.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/embed/Z50JFuNgvB)
         EOL
         # 86信吉電視台 XXX
@@ -251,7 +251,7 @@ jobs:
         sudo cat >./89.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@setinews/live)
         EOL
         # 92運通財經台
@@ -261,7 +261,7 @@ jobs:
         sudo cat >./92.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@EFTV01/live)
         EOL
         # 93全球財經台
@@ -271,7 +271,7 @@ jobs:
         sudo cat >./93.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@user-np6rz4ug3i/live)
         EOL
         # 94誠心電視台
@@ -281,7 +281,7 @@ jobs:
         sudo cat >./94.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@user-el1yv5or9d/live)
         EOL
         # 98海豚綜合台
@@ -291,7 +291,7 @@ jobs:
         sudo cat >./98.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@24811001/live)
         EOL
         # 102華藏電視台
@@ -301,7 +301,7 @@ jobs:
         sudo cat >./102.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@hztv2799/live)
         EOL
         # 103十方法界電視台
@@ -311,7 +311,7 @@ jobs:
         sudo cat >./103.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@cbtv2525/live)
         EOL
         # 104世界電視台 XXX
@@ -321,7 +321,7 @@ jobs:
         sudo cat >./104.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@worldtv8904/live)
         EOL
         # 105佛衛慈悲台 xxx
@@ -331,7 +331,7 @@ jobs:
         sudo cat >./105.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@user-ii5su6is2r/live)
         EOL
         # 106信大電視台
@@ -341,7 +341,7 @@ jobs:
         sudo cat >./106.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@user-su3ej8xu1o/live)
         EOL
         # 108新唐人亞太台
@@ -351,7 +351,7 @@ jobs:
         sudo cat >./108.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@NTDAPTV/live)
         EOL
         # 109正德電視台
@@ -361,7 +361,7 @@ jobs:
         sudo cat >./109.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@chengteTV/live)
         EOL
         # 110天良綜合台 xxx
@@ -371,7 +371,7 @@ jobs:
         sudo cat >./110.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@user-om2fo1rc7p/live)
         EOL
         # 115新天地民俗台
@@ -381,7 +381,7 @@ jobs:
         sudo cat >./115.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@user-ju8hx7pn3d/live)
         EOL
         # 116三聖電視台
@@ -391,7 +391,7 @@ jobs:
         sudo cat >./116.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@tsimtv-02/live)
         EOL
         # 118天美麗電視台
@@ -401,7 +401,7 @@ jobs:
         sudo cat >./118.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@user-su2ml3jf7w/live)
         EOL
         # 119桐瑛電視台
@@ -411,7 +411,7 @@ jobs:
         sudo cat >./119.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@user-xh5zh4hi9n/live)
         EOL
         # 120雙子衛視 XXx
@@ -421,7 +421,7 @@ jobs:
         sudo cat >./120.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@user-bp6sm2nq9u/live)
         EOL
         # 121viva購物2台
@@ -431,7 +431,7 @@ jobs:
         sudo cat >./121.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@ViVaTVtw/live)
         EOL
         # 123國會頻道1
@@ -441,7 +441,7 @@ jobs:
         sudo cat >./123.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@user-sr2ck1hq9z/live)
         EOL
         # 124國會頻道2
@@ -451,7 +451,7 @@ jobs:
         sudo cat >./124.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@user-sr2ck1hq9z/live)
         EOL
         # 125幸福空間居家台
@@ -461,7 +461,7 @@ jobs:
         sudo cat >./125.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@plus8394/live)
         EOL
         # 129東森財經股市
@@ -471,7 +471,7 @@ jobs:
         sudo cat >./129.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@57ETFN/live)
         EOL
         # 154中視新聞台
@@ -481,7 +481,7 @@ jobs:
         sudo cat >./154.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@twctvnews/live)
         EOL
         # 155台視新聞台
@@ -491,7 +491,7 @@ jobs:
         sudo cat >./155.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@TTV_NEWS/live)
         EOL
         # 159華視新聞資訊
@@ -501,7 +501,7 @@ jobs:
         sudo cat >./159.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@CtsTw/live)
         EOL
         # 222寰宇新聞台
@@ -511,7 +511,7 @@ jobs:
         sudo cat >./222.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@globalnewstw/live)
         EOL
         # 297大愛二台
@@ -521,7 +521,7 @@ jobs:
         sudo cat >./297.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@DaAiVideo/live)
         EOL
         # 950華語流行暢銷
@@ -531,7 +531,7 @@ jobs:
         sudo cat >./950.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@2olive153/live)
         EOL
         # 951華語KKBOX新歌
@@ -541,7 +541,7 @@ jobs:
         sudo cat >./951.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@kkbox4422/live)
         EOL
     - name: git add
