@@ -50,7 +50,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@mnews-tw/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=5n0y6b0Q25o)
         EOL
         # 05CNN
     - name: Get 05.m3u8
@@ -150,7 +150,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@newsebc/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=R2iMq5LKXco)
         EOL
         # 52中天新聞台
     - name: Get 52.m3u8
@@ -160,7 +160,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@CtiTv/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=_QbRXRnHMVY)
         EOL
         # 53民視新聞台
     - name: Get 53.m3u8
@@ -170,7 +170,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@FTV_News/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=ylYJSBUgaMA)
         EOL
         # 54三立新聞台
     - name: Get 54.m3u8
@@ -180,7 +180,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@setnews/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=jlldIiGA5bU)
         EOL
         # 55TVBS新聞台
     - name: Get 55.m3u8
@@ -190,7 +190,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@TVBSNEWS01/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=2mCSYvcfhtc)
         EOL
         # 56TVBS XX
     - name: Get 56.m3u8
@@ -199,10 +199,8 @@ jobs:
         sudo cat >./56.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
-
         #EXT-X-MEDIA-SEQUENCE:2698190
-
-        $(youtube-dl -f best -g https://www.youtube.com/@tvbsnews02/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=YvdcZ_jpLXE)
         EOL
         # 57東森財經新聞
     - name: Get 57.m3u8
@@ -212,7 +210,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@57ETFN/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=WHEPzbFA3hw)
         EOL
         # 59viva購物1台
     - name: Get 59.m3u8
@@ -222,7 +220,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
-        $(yt-dlp --print urls https://www.youtube.com/@ViVaTVtw/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=yuhgIlXwPh8)
         EOL
         # 60東森購物5台
     - name: Get 60.m3u8
@@ -252,7 +250,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@setinews/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=CKjSm5ZeehE)
         EOL
         # 92運通財經台
     - name: Get 92.m3u8
@@ -482,7 +480,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@twctvnews/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=TCnaIE_SAtM)
         EOL
         # 155台視新聞台
     - name: Get 155.m3u8
@@ -492,7 +490,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@TTV_NEWS/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=xL0ch83RAK8)
         EOL
         # 159華視新聞資訊
     - name: Get 159.m3u8
@@ -502,7 +500,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@CtsTw/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=wM0g8EoUZ_E)
         EOL
         # 222寰宇新聞台
     - name: Get 222.m3u8
@@ -512,7 +510,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@globalnewstw/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=B7Zp3d6xXWw)
         EOL
         # 297大愛二台
     - name: Get 297.m3u8
