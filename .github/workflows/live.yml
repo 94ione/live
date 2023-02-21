@@ -130,7 +130,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(yt-dlp --print urls https://www.youtube.com/@HotsaleTV)
+        $(yt-dlp --print urls https://www.youtube.com/@HotsaleTV/live)
         EOL
         # 48momo購物1台
     - name: Get 48.m3u8
@@ -452,7 +452,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(yt-dlp --print urls https://www.youtube.com/@user-sr2ck1hq9z)
+        $(yt-dlp --print urls https://www.youtube.com/@user-sr2ck1hq9z/live)
         EOL
         # 125幸福空間居家台
     - name: Get 125.m3u8
@@ -522,7 +522,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
-        $(yt-dlp --print urls https://www.youtube.com/@DaAiVideo)
+        $(yt-dlp --print urls https://www.youtube.com/@DaAiVideo/live)
         EOL
         # 950華語流行暢銷
     - name: Get 950.m3u8
