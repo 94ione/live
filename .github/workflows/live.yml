@@ -232,6 +232,16 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=u0NYyH3ZesE)
         EOL
+        # 72緯來體育台
+    - name: Get 72.m3u8
+      run: |
+        touch ./72.m3u8
+        sudo cat >./72.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=ERig-_nUrGU)
+        EOL
         # 86信吉電視台 XXX
     - name: Get 86.m3u8
       run: |
