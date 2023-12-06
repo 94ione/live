@@ -72,6 +72,16 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@cnnturk/live)
         EOL
+       # 08台視
+    - name: Get 08.m3u8
+      run: |
+        touch ./08.m3u8
+        sudo cat >./08.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=uDqQo8a7Xmk)
+        EOL
         # 09大愛
     - name: Get 09.m3u8
       run: |
@@ -90,7 +100,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@ptslivestream/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=C6gYqSHLRw4)
         EOL
         # 14公視台語台
     - name: Get 14.m3u8
@@ -160,7 +170,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=R2iMq5LKXco)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=S5WOGu2HSes)
         EOL
         # 52中天新聞台
     - name: Get 52.m3u8
